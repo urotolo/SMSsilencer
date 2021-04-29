@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--  <ImageView
+         android:id="@+id/imageView"
+         android:layout_width="180dp"
+         android:layout_height="135dp"
+         app:srcCompat="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+         android:layout_gravity="center"
+         android:layout_marginBottom="0dp"/>  -->
+
+    <!--  <TextView
+          android:id="@+id/textView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="TextView" /> -->
+    <!-- android:layout_gravity="center"/> -->
+    <!--android:layout_marginTop="0dp" /> -->
+
+    <!-- android:layout_gravity="center_horizontal"
+         android:ems="10"
+     -->
+
+    <EditText
+        android:id="@+id/textMsg"
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="94dp"
+        android:inputType="textMultiLine"
+        android:maxLength="250"
+        android:text="Enter your text message here. . ."
+        android:textSize="25dp"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/textPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="phone"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="243dp"
+        android:text="Send"
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="240dp" />
+
+    <Button
+        android:id="@+id/listMySmsTextMessages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="203dp"
+        android:onClick="checkMessages"
+        android:text="View My Messages"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="203dp" />
+
+</RelativeLayout>
